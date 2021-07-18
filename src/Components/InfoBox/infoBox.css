@@ -1,0 +1,33 @@
+.infoBox {
+    flex:1;
+    cursor: pointer;
+
+}
+
+.infoBox--selected {
+    border-top: 7px solid greenyellow;
+    border-radius: 5px;
+}
+
+.infoBox--red {
+    border-color: #cc1034;
+}
+
+.infoBox:not(:last-child){
+    margin-right: 10px;
+}
+
+.infoBoxCard__cases {
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+.infoBoxCard__total {
+    color: #102e47;
+    font-weight: 700 !important;
+    font-size: 0.9rem !important;
+    margin-top: 15px !important;
+}

@@ -9,6 +9,7 @@
 
 .table tr:nth-of-type(odd) {
     background-color: #f3f2f8;
+    border-color:#CC1034;
 }
 
 .table tr {
